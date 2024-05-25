@@ -1,0 +1,76 @@
+.searchBarField{
+    width: 80%;
+    position: relative;
+    padding: 0.9rem;
+    border-radius: 0.3rem;
+}
+
+
+
+.searchBarDiv{
+    margin: 1rem;
+    display: flex;
+    justify-content: right;
+}
+
+.SideNavDiv{
+    /* display: grid;
+    grid-template-rows: ;
+    grid-template-columns: ; */
+}
+
+.pagesContainer{
+    
+    display: grid;
+    grid-template-columns: 15rem 19rem 19.1rem 21rem 21rem ;
+    grid-template-rows: 6rem 15rem 11.6rem 11.1rem   ;
+}
+
+.dashBordComponent{
+    /* background-color: rgb(155, 155, 155); */
+    grid-row: 1/6;
+    grid-column: 1/1;
+
+}
+
+.searchBarComponent{
+    /* background-color: rgb(155, 155, 155); */
+    grid-row: 1/1;
+    grid-column: 1/6;
+}
+
+.grid3{
+    /* background-color: rgb(248, 148, 148); */
+    border: solid 4px rgb(248, 148, 148);
+    grid-row: 2/2;
+    grid-column: 2/4;
+    text-align: center;
+}
+
+.grid4{
+    /* background-color: rgb(176, 255, 192); */
+    border: solid 4px rgb(176, 255, 192);
+}
+
+.grid5{
+    /* background-color: rgb(148, 248, 221); */
+    border: solid 4px rgb(148, 248, 221);
+}
+
+.grid6{
+    /* background-color: rgb(148, 213, 248); */
+    border: solid 4px rgb(148, 213, 248);
+    grid-row: 3/5;
+    grid-column: 2/4;
+}
+
+.grid7{
+    /* background-color: rgb(246, 148, 248); */
+    border: solid 4px rgb(246, 148, 248);
+    grid-row: 3/5;
+    grid-column: 4/6;
+}
+
+.grid8{
+
+}
